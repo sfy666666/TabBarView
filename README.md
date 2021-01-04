@@ -2,7 +2,7 @@
 
 仿今日头条TabBar
 
-##效果图
+## 效果图
 ![img](https://github.com/sfy666666/TabBarView/blob/master/lib/image/preview.gif)
 
 ## Getting Started
