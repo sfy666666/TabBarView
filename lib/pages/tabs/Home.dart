@@ -81,13 +81,17 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
   void initState() {
     super.initState();
     _tabController = new TabController(vsync: this, length: this._tabs.length);
-    _tabController.index=1;
     setState(() {
-
+      _tabController.index=1;
     });
+    //监听器
     _tabController.addListener(() {
-      //通过监听实现自定义的功能
-      print(_tabController.index);
+      //点击切换tab的时候执行了一个动画效果，滑动切换的时候是没有的，在这个过程中触发了一次Listener,所以触发了两次addListener方法
+      // 解决点击tab执行2次的问题
+      if(_tabController.index ==_tabController.animation.value) {
+        //实现自定义的功能
+        print(_tabController.index);
+      }
     });
   }
 
