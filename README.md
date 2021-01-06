@@ -3,7 +3,7 @@
 仿今日头条TabBar
 
 ## 效果图
-![img](https://gitee.com/Fly2Universe/tab-bar-view/blob/master/lib/image/preview.gif)
+![img](http://chuantu.xyz/t6/741/1609913872x1700338588.gif)
 
 ## Getting Started
 
