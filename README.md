@@ -4,6 +4,7 @@
 
 ## 效果图
 ![img](http://chuantu.xyz/t6/741/1609913872x1700338588.gif)
+![img](https://github.com/sfy666666/TabBarView/blob/master/lib/image/preview.gif)
 
 ## Getting Started
 
